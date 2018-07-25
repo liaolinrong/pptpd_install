@@ -1,5 +1,6 @@
 #!/bin/bash
 
+yum install epel-release -y
 yum install -y perl ppp iptables pptpd 
 
 mv /etc/ppp/options.pptpd /etc/ppp/options.pptpd.bak
